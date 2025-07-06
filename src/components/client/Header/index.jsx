@@ -10,7 +10,7 @@ export default function Header() {
   const menuItems = [
     { label: "Section 1", target: "section-1", isScroll: true },
     { label: "Section 2", target: "section-2", isScroll: true },
-    { label: "Page 1", target: "/page_1" },
+    { label: "Page 1", path: "/page_1" },
     { label: "Page 2", path: "/page_2" },
   ];
 

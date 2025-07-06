@@ -23,15 +23,19 @@ export default function Home() {
   return (
     <Fragment>
       <SEO title="Home" />
-      <div className="content-container bg-gradient-to-br from-gray-50 to-white">
+      <div className="content-container bg-gradient-to-br from-gray-50 to-white flex flex-col overflow-hidden">
         {/* Section_1 Section */}
         <div id="section-1">
-          <div>Section 1</div>
+          <div className="bg-slate-400 w-screen h-screen flex items-center justify-center">
+            Home Section 1
+          </div>
         </div>
 
         {/* Section_2 Section */}
         <div id="section-2">
-          <div>Section 2</div>
+          <div className="bg-stone-400 w-screen h-screen flex items-center justify-center">
+            Home Section 2
+          </div>
         </div>
       </div>
     </Fragment>
