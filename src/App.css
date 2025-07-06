@@ -28,7 +28,9 @@
 }
 
 .scrollbar-hidden {
-  scrollbar-width: none; /* Hide the scrollbar for Firefox */
+  /* Hide scrollbar for IE, Edge */
+  -ms-overflow-style: none;
+  /* Hide the scrollbar for Webkit-based browsers (Chrome, Safari) */
 }
 
 /**************** preloader ****************/
