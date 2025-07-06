@@ -60,6 +60,7 @@ Root files:
 ├── README.md
 ├── tailwind.config.js
 ├── vite.config.js
+```
 
 ---
 
@@ -74,14 +75,17 @@ A sample API call is already integrated in **Page 1** to demonstrate how to stru
 1. **Clone or Fork the Repository**
    ```bash
    git clone https://github.com/moaz-ze69/react-starter-template.git
+   ```
 
 2. **Install Dependencies**
    ```bash
    npm install --legacy-peer-deps
+   ```
 
 3. **Start Development Server**
    ```bash
    npm run dev
+   ```
 
 4. **Open your browser and navigate to:**
    http://localhost:5173
