@@ -19,17 +19,17 @@ export default function Footer() {
     {
       title: "Category 2",
       links: [
-        { label: "Page 1", path: "/page_1" },
-        { label: "Page 2", path: "/page_2" },
-        { label: "Page 1", path: "/page_1" },
+        { label: "Page 3", path: "/page_3" },
+        { label: "Page 4", path: "/page_4" },
+        { label: "Page 5", path: "/page_5" },
       ],
     },
     {
       title: "Category 3",
       links: [
-        { label: "Page 1", path: "/page_1" },
-        { label: "Page 2", path: "/page_2" },
-        { label: "Page 1", path: "/page_1" },
+        { label: "Page 6", path: "/page_6" },
+        { label: "Page 7", path: "/page_7" },
+        { label: "Page 8", path: "/page_8" },
       ],
     },
   ];
